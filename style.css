@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grandstander', cursive;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.clock{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: chocolate;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    line-height: 300px;
+}
+.input-color{
+    border: none;
+    outline: none;
+    width: 600px;
+    background: black;
+    position: relative;
+    transform: translateY(-457px);
+    cursor: pointer;
+}
+.hours-min-sec , .day-month-year{
+    font-size: 30px;
+    transform: translateY(-25px);
+}
+.day-month-year{
+    transform: translateY(-250px);
+}
